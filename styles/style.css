@@ -5,10 +5,6 @@
   box-sizing: border-box;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
-}
 
 .header {
   height: 100vh;
@@ -29,6 +25,8 @@ h1, h2, h3, h4, h5, h6, p {
   z-index: 3;
 }
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -102,6 +100,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 .two-columns__paragraph:last-child {
@@ -120,6 +119,8 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
 }
 .section-title {
+  margin-top: 0;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin-top: 20px;
+  margin: 0;
   text-align: center;
 }
 .section-title_theme_dark {
@@ -152,7 +153,6 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: normal;
   color: #F2F2F2;
   text-align: center;
-  margin-top: 20px;
 }
 .table {
   width: 1100px;
@@ -197,6 +197,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 24px;
   font-weight: 600;
   color: white;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .table__text {
@@ -228,6 +229,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 120px;
   font-weight: 600;
   margin-top: 100px;
+  margin-bottom: 0;
   text-align: center;
 }
 .feynman__subtitle {
@@ -235,6 +237,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 36px;
   font-weight: normal;
   margin-top: 70px;
+  margin-bottom: 0;
   text-align: center;
 }
 .feynman__link {
