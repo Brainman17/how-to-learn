@@ -15,6 +15,8 @@
   display: flex;
 }
 .header__title {
+  margin-top: 0;
+  margin-bottom: 0;
   align-self: center;
   width: 730px;
   line-height: 96px;
@@ -35,6 +37,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #000000;
+  z-index: 5;
 }
 .header__link {
   text-decoration: none;
@@ -53,7 +56,6 @@
   z-index: 1;
 }
 .header__square-pic {
-  background-image: url(../images/Square-pic.png);
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
@@ -90,6 +92,8 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .two-columns__main-text {
   width: 80%;
@@ -190,7 +194,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .table__heading_theme_dark {
   line-height: 1.15;
@@ -204,7 +209,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 .table__text_theme_dark {
   line-height: 1.2;
@@ -278,7 +283,6 @@
 }
 .footer__columns {
   width: 90%;
-  flex-basis: 711px;
   min-height: 250px;
   display: flex;
   flex-direction: row;
@@ -286,18 +290,20 @@
   margin:0 auto;
   padding-top: 60px;
 }
+/* Я 3 ЧАСА ДУМАЛ, КАК РАСПОЛОЖИТЬ ВТОРЫЕ ДВЕ КОЛОНКИ ПО БРИФУ, А НУЖНО БЫЛО ПРОСТО ПОСТАВИТЬ FLEX-BASIS У КОПИРАЙТА!!!!!!!!ААААААААА!!!!!!!!! */
+
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
+  flex-basis: 711px;
   justify-content: space-between;
 }
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 355px;
-
 }
+
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
@@ -309,6 +315,7 @@
   font-weight: 600;
   color: #F2F2F2;
   margin-bottom: 20px;
+  margin-top: 0;
   padding-top: 4px;
 }
 .footer__column-links {
