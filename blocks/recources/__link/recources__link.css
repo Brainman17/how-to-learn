@@ -1,0 +1,10 @@
+.recources__link {
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.recources__link:hover {
+  opacity: 0.7;
+}
+
+
