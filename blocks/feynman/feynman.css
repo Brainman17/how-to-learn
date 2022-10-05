@@ -1,7 +1,7 @@
 .feynman {
   min-height: 890px;
   background: url(/images/feynman.png),#f2f2f2;
-  /* Я не понимаю, почему он фейнама не находит!!!!ПОЧЕМУ!? */
+/* А сейчас, ничего не поменяв, Фейнман появился, я ничего не понимаю.. */
   background-size: 867px 637px, cover;
   background-position: 0% 100%;
   background-repeat: no-repeat;

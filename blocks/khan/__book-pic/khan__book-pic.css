@@ -2,4 +2,6 @@
   width: 608px;
   height: 620px;
   margin-right: 48px;
+  /* Но если я его уберу в cover, то он его обрежет с такими величинами по брифу
+  object-fit: cover; */
 }

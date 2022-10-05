@@ -1,4 +1,4 @@
-@import url(normalize.css);
+@import url(../pages/normalize.css);
 
 @import url(../blocks/page/page.css);
 
@@ -67,8 +67,6 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/rotation/_figure/rotation_figure_pic.css);
-@import url(../blocks/rotation/_figure/rotation_figure_triangle.css);
 
 @import url(../blocks/recources/recources.css);
 @import url(../blocks/recources/__logo-zone/recources__logo-zone.css);

@@ -5,3 +5,8 @@
   font-weight: normal;
   color: #F2F2F2;
 }
+
+.footer__column-link:hover {
+  color: #2f80ed;;
+  transition: color 0.8s;
+}
